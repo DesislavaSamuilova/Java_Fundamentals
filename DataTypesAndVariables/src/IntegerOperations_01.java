@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class IntegerOperations_01 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int firstNumber = Integer.parseInt(scanner.nextLine());
+        int secondNumber = Integer.parseInt(scanner.nextLine());
+        int thirdNumber = Integer.parseInt(scanner.nextLine());
+        int fourthNumber = Integer.parseInt(scanner.nextLine());
+
+        int currentSum = (firstNumber + secondNumber) / thirdNumber;
+        int currentNextSum = currentSum * fourthNumber;
+
+        System.out.println(currentNextSum);
+    }
+}
